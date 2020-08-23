@@ -1,0 +1,483 @@
+/* Author: Milivojevic Ivana */
+@font-face {
+    font-family: "Baloo Chettan";
+    src: url("fonts/Baloo_Chettan_2/BalooChettan2-Regular.ttf");
+}
+
+body {
+    font-family: "Baloo Chettan";
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+/* ====== HEADER ====== */
+.navbar-brand {
+    background-image: url("images/logo.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 130px;
+}
+
+.navbar-collapse label {
+    color: #fff;
+}
+
+.navbar-collapse .box {
+    margin: 0 6px;
+}
+
+.logout {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: 0.3s;
+    margin-left: 15px;
+}
+
+.logout:hover {
+    color: #fff;
+}
+
+.header-user {
+    display: flex;
+    color: #fff;
+    align-items: center;
+}
+
+.profile {
+    font-size: 22px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.profile:hover {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+.header-user i {
+    font-size: 30px;
+    margin: 0 7px;
+}
+
+.navbar-light {
+    background-color: rgba(33, 37, 41, 0.8);
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: 800;
+}
+
+/* ====== END HEADER ====== */
+
+
+/* ====== BACKGROUND SECTION ====== */
+.background-section {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-image: url("images/big-bg.jpg");
+}
+
+/* ====== END BACKGROUND SECTION ====== */
+
+/* ====== PRESENTATION SECTION ====== */
+.presentation-section {
+    padding: 80px 0;
+}
+
+.card {
+    border: none;
+    padding: 10px 10px;
+    margin: 0 auto;
+    width: 19rem;
+    -webkit-box-shadow: 0 0 20px -1px rgba(218, 218, 227, 0.8);
+    -moz-box-shadow: 0 0 20px -1px rgba(218, 218, 227, 0.8);
+    box-shadow: 0 0 20px -1px rgba(218, 218, 227, 0.8);
+}
+
+.card {
+    text-align: center;
+    height: 290px;
+}
+
+.card-title {
+    font-size: 24px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card-img-top i {
+    font-size: 65px;
+    padding-top: 15px;
+}
+
+/* ====== END PRESENTATION SECTION ====== */
+
+/* ====== REAL ESTATE HOMEPAGE SECTION ====== */
+.real-estate {
+    padding: 80px 0;
+    background-color: #DAE3F3;
+}
+
+.real-estate .col-sm-4 {
+    margin: 10px 0;
+}
+
+.hovercard {
+    text-align: left;
+    height: 100%;
+}
+
+.description {
+    margin-top: 15px;
+}
+
+.description p {
+    margin-bottom: 3px;
+}
+
+.description p span {
+    font-size: 22px;
+    margin: 0 5px;
+}
+
+.description a {
+    color: #212529;
+    text-decoration: underline;
+    font-size: 22px;
+    margin: 0 5px;
+}
+
+.contact-number {
+    display: inline-block;
+}
+
+.avatar {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+/* ====== END REAL ESTATE HOMEPAGE SECTION ====== */
+
+/* ====== FOOTER ====== */
+footer {
+    background-color: #1c1c43;
+    padding: 20px 10px;
+}
+
+footer .row {
+    margin: 0;
+    align-items: center;
+}
+
+footer p {
+    color: #DAE3F3;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.social-media i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #DAE3F3;
+    color: #DAE3F3;
+    padding: 7px;
+    font-size: 25px;
+    margin: 0 6px;
+}
+
+.social-media a:hover {
+    text-decoration: none;
+}
+
+/* ====== END FOOTER ====== */
+
+/* ====== ABOUT ====== */
+.about-section {
+    padding: 160px 0 80px;
+}
+
+.about-section .row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.about-description p {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.about-description h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.business-background {
+    background-image: url("images/bussines.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+}
+
+.team-background {
+    background-image: url("images/team.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+}
+
+.vision-background {
+    background-image: url("images/vision.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+}
+
+.mission-background {
+    background-image: url("images/mission.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+}
+
+.trust-background {
+    background-image: url("images/trust.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+}
+
+/* ====== CONTACT SECTION ====== */
+.contact-background-section {
+    background-image: url("images/contact-us.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.contact-section {
+    padding: 80px 0;
+}
+
+#message {
+    height: 250px;
+}
+
+.input-group-text {
+    background-color: #1c1c43;
+    color: #fff;
+    border: 1px solid #1c1c43;
+}
+
+.contact-section .btn {
+    max-width: 140px;
+    border-radius: 7px;
+    padding: 10px 20px;
+    background-color: #1c1c43;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.contact-section .form-control {
+    border: 1px solid #1c1c43;
+}
+
+/* ====== CONTACT SECTION END ====== */
+
+/* ====== REAL ESTATE PAGE ====== */
+
+.real-estate-page {
+    padding: 120px 0 80px;
+    background-color: #DAE3F3;
+}
+
+.real-estate-page .col-sm-4 {
+    margin: 10px 0;
+}
+
+.real-estate-page .description p {
+    line-height: 1;
+}
+
+.model-toggle {
+    overflow: hidden;
+    transition: all 0.3s;
+    height: 200px;
+}
+
+.toggle-height {
+    height: auto;
+}
+
+.real-estate-page .hovercard {
+    min-height: 365px;
+    height: auto;
+}
+
+/* ====== REAL ESTATE PAGE END ====== */
+
+/* ====== USER SECTION ====== */
+.user-section {
+    padding: 120px 0 80px;
+    height: 93vh;
+}
+
+td {
+    padding: 10px 20px;
+    border: 1px solid #1c1c43;
+}
+
+/* ====== USER SECTION END ====== */
+
+/* ====== UPDATE ======*/
+table{
+    margin: 0 auto;
+}
+.update-section{
+    background-color: #DAE3F3;
+    padding: 215px 0 140px;
+}
+.update-table td{
+    padding: 20px 10px;
+    border: 2px solid #1c1c43;
+}
+/* ======  END UPDATE ======*/
+
+/* ====== RESPONSIVE ====== */
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .header-user {
+        justify-content: center;
+        position: relative;
+        padding: 15px 0;
+    }
+
+    .header-user:before {
+        position: absolute;
+        content: "";
+        border-top: 2px solid #fff;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+        width: 200px;
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+    }
+
+    .presentation-section .card {
+        width: auto !important;
+        padding: 10px 0;
+    }
+
+    .presentation-section .card-body {
+        padding: 5px;
+    }
+
+    .real-estate .card-body {
+        padding: 6px;
+    }
+
+    .real-estate .card {
+        width: auto !important;
+    }
+
+    .real-estate-page .hovercard {
+        width: auto;
+        min-height: 310px;
+    }
+
+    .real-estate-page .hovercard .card-body {
+        padding: 0;
+    }
+
+    .contact-background-section {
+        height: 535px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .presentation-section .card {
+        margin-bottom: 30px;
+        height: 245px;
+    }
+
+    .real-estate .card {
+        width: 300px !important;
+    }
+
+    .real-estate .col-md-4 {
+        margin-bottom: 30px;
+    }
+
+    .description p {
+        margin-bottom: 0;
+    }
+
+    .about-description h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    h1 {
+        margin-bottom: 0;
+    }
+
+    footer p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .social-media i {
+        width: 33px;
+        height: 33px;
+        padding: 6px;
+        font-size: 20px;
+    }
+
+    .social-media {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-background-section {
+        height: 355px;
+    }
+}
