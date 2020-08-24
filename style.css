@@ -370,6 +370,20 @@ table{
     padding: 20px 10px;
     border: 2px solid #1c1c43;
 }
+
+.delete-button{
+    padding: 5px 3px;
+    text-color: #fff;
+    background-color: #1c1c43;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    margin-left: 7px;
+    text-decoration: none;
+}
+
+.delete-button:hover{
+    text-decoration: none;
+}
 /* ======  END UPDATE ======*/
 
 /* ====== RESPONSIVE ====== */
