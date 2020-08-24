@@ -215,6 +215,7 @@ $result = mysqli_query($con, $sql);
                 <tr>
                     <td>
                         <input type="submit" name="submit" value="Submit" class="btnSubmit">
+                         <a href="delete.php" class="delete-button">DELETE</a>
                     </td>
                 </tr>
             </table>
